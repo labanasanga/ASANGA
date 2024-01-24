@@ -1,0 +1,37 @@
+table{
+    width: 30%;
+    margin: 50px;
+    border-collapse: collapse;
+    align-content: center;
+}
+td,th{
+    border :2px solid #020411;
+    padding: 10px;
+}
+th{
+    font-family: "Engravers MT";
+    color: #08083a;
+    font-size: 30px;
+    align-content: center;
+    font-weight: bolder;
+}
+td{
+    font-family: "Goudy Old Style" ;
+    color: #031104;
+    font-size: 20px;
+    align-content: center;
+    font-weight: bolder;
+
+}
+h1{text-align: center
+;font-weight: bolder;
+    ;font-size: 50px;
+    background-color: darkblue;
+}
+body {
+    background-color: chocolate;
+    background-repeat: round;
+}
+tr:nth-child(even){
+    background-color: rgba(0, 255, 255, 0.32);
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/CSS/registrationstyle.css">
+    <link rel="stylesheet" href="assets/CSS/navstyleproject.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>registration</title>
+</head>
+<style>
+    body{
+        background-image: url("assets/images/Computer 3d wallpaper.jpg");background-size: 50%;background-position: center;
+    }
+
+
+</style>
+<body>
+
+<nav class="navbar">
+<ul >
+    <li><a href="Home.html" target="_blank">HOME</a></li>
+    <li><a href="about.html" target="_blank">ABOUT</a></li>
+    <li><a href="registration.html"target="_blank">REGISTRATION</a></li>
+    <li><a href="tableproj.html" target="_blank">DONATIONS</a></li>
+    <li><a href="linksanimal.html"target="_blank">LINKS</a></li>
+    <li><a href="iframeanimals.html" target="_blank">IFRAME</a></li>
+    <li><a href="gallery.html"target="_blank">GALLERY</a></li>
+    <li><a href="animal%20divs.html"target="_blank">PROFILES</a></li>
+
+
+
+</ul>
+    </nav>
+
+<hr>
+
+<div id="form.container">
+    <div class="form.group">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="name" required>
+    </div>
+     <div class="form.group">
+        <label for="name">First Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form.group">
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="custom">Custom</option>
+        </select>
+
+    </div>
+
+    <div class="form.group">
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email"required>
+
+    </div>
+        <div class="form.group">
+        <label for="donation">Donation Amount</label>
+        <input type="text"id="donation"name="donation"required>
+
+    </div>
+
+    <div class="form.group">
+        <label>Select an animal:</label>
+        <input type="radio"id="animal1"name="animal1"value="Cow">
+        <label for="animal1">Cow</label>
+
+                <input type="radio"id="animal2"name="animal2"value="Donkey">
+        <label for="animal2">Donkey</label>
+
+                <input type="radio"id="animal3"name="animal3"value="Goat">
+        <label for="animal3">Goat</label>
+
+
+    </div>
+
+<div class="form.group">
+    <label for="message">Additional Information</label>
+    <textarea name="message" id="message" cols="40" rows="2"></textarea>
+</div>
+<button>
+        <input class="button" type="submit"value="Register">
+    </button>
+</body>
+
+</html>
